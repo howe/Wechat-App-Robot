@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view  class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <button bindtap="bindOrderTap" class="index-order {{qqbind==true ? 'active' : 'not-active'}}">开始订餐</button>
+    <button bindtap="bindViewTap" class="index_bind {{qqbind==false ? 'active' : 'not-active'}}">绑定帐号</button>
+  </view>
+</view>

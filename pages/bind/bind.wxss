@@ -1,0 +1,19 @@
+.bind-form{
+    margin: 0.2rem;
+}
+.bind-form input{
+    margin: 0.2rem;
+    border: 1px solid #e3e6f3;
+    border-radius: 1px;
+    box-shadow: none;
+    font-weight: 400;
+    height: 2rem;
+    text-indent: 0.5rem;
+}
+.bind-tip{
+    color: deepskyblue;
+    margin: 0.1rem;
+}
+.bind-note{
+    margin: 2rem;
+}
