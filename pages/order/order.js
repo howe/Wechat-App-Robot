@@ -7,7 +7,7 @@ Page({
     hiddenLoading: true,
     txtHidden: true,
     txt: '',
-    avaliable_years: util.range(2000, 2031).map(x => x + '年'),
+    avaliable_years: util.range(2016, 2021).map(x => x + '年'),
     avaliable_months: util.range(1, 13).map(x => x + '月'),
     // text:"这是一个页面"
     cal1: {
